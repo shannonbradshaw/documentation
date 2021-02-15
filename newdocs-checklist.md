@@ -25,8 +25,6 @@ Beginning users look for specific calls to action in step-by-step content. Activ
 | After you install the software, start the computer. | After the software has been installed, the computer can be started. |
 | Click OK to save the configuration. | The configuration is saved when the OK button is clicked. |
 | Create a server. | A server is created by you. |
-<br/>
-
 
 ### When Do You Use Passive Voice?
 
@@ -40,17 +38,53 @@ You can use passive voice when using active voice will create one of the followi
 | A flag was set incorrectly. | You set the flag incorrectly. | The active voice blames the user. |
 | Account owners can’t be assigned additional roles, and their access can’t be restricted. | Administrators can’t assign account owners additional roles, and they can’t restrict the access of account owners. | In this context, the object, account owners, is more important than the actor, administrators. |
 
-## Use Active Voice
-
-### Why Use Active Voice
-
 ## Use Present Tense
 
-## Use Second Person and Imperative Mood
+Users read content to learn how to perform tasks or to gather information. These activities occur in the users’ present time. This makes the present tense appropriate in most cases. The present tense implies that users should take action now. Sentences that use the present tense are easier to read than sentences that use past or future tense.
+
+## Write to the User
+
+Users are more engaged with content when it talks to them directly. Use second person to talk to users directly, addressing the user as you. Second person promotes a friendly tone. 
+
+Use second person with the imperative mood (in which the subject you is understood) and active voice to eliminate wordiness and confusion about who or what initiates an action, especially in procedural steps.
+
+Examples:
+- Use the following configuration if you want to enable authentication.
+- Enter your access keys.
+- Install and configure the AWS Command Line Inerface. (imperative)
 
 ## Write Clear and Concise Sentences and Paragraphs
 
-## Use Effective Verbs
+## Use Active Verbs
+
+Verbs carry the action in a sentence. Use active verbs rather than verbs like *be*, *have*, *make*, or *do* (and their variants). 
+
+Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make the nouns carry the action and weaken the meaning. Replace weak verbs and gerunds with strong, action-oriented verbs to restore focus to verbs from nouns.
+
+| Active Verb |	Weaker |
+| --- | --- |
+| Role-Based Access Control (RBAC) restricts service access to authorized users. | Role-Based Access Control (RBAC) is a method of restricting service access to authorized users. |
+| If the node can’t access the Internet, the installation process fails. | If the node doesn’t have Internet access, the installation process fails. |
+| To create a server, specify a name, flavor, and image. | You create a server by specifying a name, flavor, and image. |
+| When you create a server, … | When creating a server, … |
+	
+### Avoid Verbs Built from Nouns
+Many nouns are built from verbs, for example, description and explanation. Such nouns are called nominalizations. Use active verbs instead.
+
+| Active Verb | Nominalization |
+| --- | --- |
+| The following table describes each of the products. |	The following table provides a description of each of these products. |
+| Install the product by completing the following tasks. | Perform the installation of the product by completing the following tasks. |
+| The program encrypts user IDs and passwords. | The program enables the encryption of user IDs and passwords. |
+
+### Use the Simplest Tense
+
+| Simplest | More Complex |
+| --- | --- |
+| Before you perform this task, complete the prerequisites. |	Before you perform this task, you should have completed the prerequisites. |
+| To start, three ports are open: ssh, http, and https.	| To start, you are going to have three ports open: ssh, http, and https. |
+| If you use a Red Hat distribution, iptables works a little differently. | If you are using a Red Hat distribution, iptables work a little differently. |
+
 
 ## Clarify Gerunds and Participles
 
