@@ -4,6 +4,8 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 ## Use Active Voice
 
+### Why Use Active Voice?
+
 *Active voice* makes the performer of the action (usually the reader or user) the subject of the sentence.
 
 *Passive voice* makes the recipient of the action (not the performer) the subject of the sentence.
@@ -15,8 +17,6 @@ When compared to passive-voice sentences, active-voice sentences are:
 - easier to understand
 
 With active voice, you can distinguish the actions and responses of the user from those of the technology.
-
-### Example
 
 Beginning users look for specific calls to action in step-by-step content. Active voice makes this clear. Consider if you write a step that reads “The service can be restarted.” As written, this sentence reads as a consideration or a possibility, not an instruction. If the user skips this step due to this confusion, the rest of the tutorial might fail. If you write “Restart the service”, you remove all doubt. This also clarifies that the user restarts the service.
 
@@ -61,7 +61,7 @@ Verbs carry the action in a sentence. Use active verbs rather than verbs like *b
 
 Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make the nouns carry the action and weaken the meaning. Replace weak verbs and gerunds with strong, action-oriented verbs to restore focus to verbs from nouns.
 
-| Active Verb |	Weaker |
+| Use (active verb) |	Avoid (weaker) |
 | --- | --- |
 | Role-Based Access Control (RBAC) restricts service access to authorized users. | Role-Based Access Control (RBAC) is a method of restricting service access to authorized users. |
 | If the node can’t access the Internet, the installation process fails. | If the node doesn’t have Internet access, the installation process fails. |
@@ -71,7 +71,7 @@ Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make th
 ### Avoid Verbs Built from Nouns
 Many nouns are built from verbs, for example, description and explanation. Such nouns are called nominalizations. Use active verbs instead.
 
-| Active Verb | Nominalization |
+| Use (active Verb) | Avoid (nominalization) |
 | --- | --- |
 | The following table describes each of the products. |	The following table provides a description of each of these products. |
 | Install the product by completing the following tasks. | Perform the installation of the product by completing the following tasks. |
@@ -79,32 +79,148 @@ Many nouns are built from verbs, for example, description and explanation. Such 
 
 ### Use the Simplest Tense
 
-| Simplest | More Complex |
+| Use (simplest tense) | Avoid (more complex) |
 | --- | --- |
 | Before you perform this task, complete the prerequisites. |	Before you perform this task, you should have completed the prerequisites. |
 | To start, three ports are open: ssh, http, and https.	| To start, you are going to have three ports open: ssh, http, and https. |
 | If you use a Red Hat distribution, iptables works a little differently. | If you are using a Red Hat distribution, iptables work a little differently. |
 
-
-## Clarify Gerunds and Participles
-
-## Clarify Ambiguous Modifiers
-
-## Use that, which, and such as Correctly
-
 ## Clarify Pronouns and Antecedents
 
 ## User Gender-Neutral Pronouns
 
+Use gender-neutral pronouns unless you are referring to a specific individual. 
+
+| Use | Avoid |
+| --- | --- |
+| They, their, theirs, them, or themselves as a singular pronoun. | he, him, his, she, or her as gender-neutral pronouns and he/she or (s)he or other such punctuational approaches. |
+
+Following are some examples:
+
+- Tell the next caller they need to forward the status.
+- Every account manager should thank their customer.
+- Who left their laptop opened and unsecured?
+
 ## Use Positive Statements
 
+Positive statements are easier to understand than negative statements and are typically easier to understand.
+
+| Use | Avoid |
+| --- | --- |
+| The software works properly when installed correctly. | The software won’t work properly unless you install it correctly. |
+| Remember to involve your business users in the scheduling process. | Don’t forget to involve your business users in the scheduling process. |
+| Sometimes you want to prevent a search engine from indexing a website. | It isn’t uncommon in certain situations to not want to allow indexing of a site by a search engine. |
+
+## Avoid Negative Words
+
+Try to avoid the following negative words, using instead the suggested alternatives. However, always be honest and transparent about issues.
+
+| Avoid | Alternative |
+| --- | --- |
+| damage | affect |
+| catastrophic | serious |
+| bad | Use serious or add an explanation |
+| fail | unable to |
+| kill | cancel |
+| fatal | serious |
+| destroy | remove |
+| wrong	| incorrect, inconsistent |
+
 ## Use Correct Punctuation
+
+When you use correct punctuation, you help users understand the content the first time they read it. Following are a few basic guidelines to apply:
+- Use a period at the end of sentences, even imperative ones (such as steps).
+- Use a comma before the last item in a series (known as the serial comma).
+- Use a comma to separate independent clauses, and include a coordinating conjunction (such as and).
+- Avoid using semicolons. You can almost always use a period in the place of a semicolon.
+- Don’t use a slash (/) to present a choice among, or a series of, actions or objects. Rewrite the phrase to eliminate the slash mark. = - Exceptions are established terms like client/server and read/write.
+- Avoid using exclamation points, question marks, ellipses, or single quotation marks in regular text. Although these punctuation marks might appear in code elements, messages, literal commands, or UIs, they’re rarely useful when writing descriptions or instructions for users. One exception is the use of question marks in FAQ topics.
+
 
 ## Use Interjections with Care
 
 ## Write for Accessibility
 
-## Write for a Global Audience
+Writing with accessibility in mind improves the documentation experience for all our users.
+- Avoid unnecessary font formatting. (Screen readers explicitly describe text modifications.)
+- Don’t force line breaks (hard returns) within sentences and paragraphs. Line breaks might not work well in resized windows or with enlarged text.
+- Avoid camel case (camelCase) and all caps (ALLCAPS). Some screen readers read capitalized letters individually. Some languages are unicameral; they don’t have lower and upper cases.
+- Depending on the screen reader (or personal settings), not all punctuation marks are read. Make sure the same meaning is conveyed to the reader without punctuation marks. For that reason, avoid the use of exclamation marks, question marks, and semicolons.
+- Don’t use & instead of and in headings, text, navigation, or tables of contents; however, it’s OK to use & when referencing UI elements that use &, or in table headings and diagram labels where space constraints require abbreviation. And of course it’s fine to use & for technical purposes in code.
+
+### Provide Context for UI Elements
+
+Don’t identify UI elements using only one sensory characteristic (such as color or location).
+
+Directional phrases like “at the top of the page” or “right-hand side” might not provide adequate information to someone using a screen reader. Even relating one element to another with phrases like “next to” or “above” might not provide the correct context.
+
+- When referring to a UI element in a procedure, use previous steps to clearly navigate the user to the element to maintain clarity and avoid wordiness. If the same icon, button, or element appears on the page more than once, be more descriptive by using section, modal, or panel headings and field names.
+- If a UI element is hard to find, provide a screenshot.
+- Use the label of an element and not its shape or color to describe it.
+
+| Use | Avoid |
+| --- | --- |
+| Click Save. | Click the green button. Click the round button. |
+
+### Write for Ease of Reading
+
+- Break up walls of text to aid in scannability. For example, separate paragraphs, create headings, and use lists.
+- Use shorter sentences. Try to use fewer than 26 words per sentence.
+- Define acronyms and abbreviations on first usage and if they’re used infrequently.
+- Use parallel writing structures for similar things. For example, start each list in the same format.
+- Place distinguishing and important information of a paragraph in the first sentence to aid in scannability.
+
+### Use Descriptive, Hierarchical Headings
+
+Users of screen readers often scan a page by jumping from heading to heading. Make the hierarchy clear and headings meaningful.
+- Use descriptive headings and titles because they help a user navigate their browser and the page. It’s easier to jump between pages and sections of a page if the headings and titles are unique.
+- Use a heading hierarchy and don’t skip levels. For example, put an h3 only under an h2.
+- Don’t use a heading level that doesn’t fit the hierarchy. Find another way to change the visual formatting of a heading.
+- Don’t have empty headings or headings with no associated content.
+- Format headings using RST markup, like heading types, not bold.
+- Use an h1 for the page title or main content heading.
+
+### Use Meaningful Link Text and Formatting
+
+Some people who use screen readers jump from link to link to scan a page and need to understand what a link contains.
+
+Use meaningful link text. Links should make sense when read out of context.
+Don’t use click here or read this document. These phrases provide no information about what a link contains.
+Use an external link icon to indicate that the link opens in a new window or tab.
+Avoid adjacent links or put a character in between to separate them.
+If a link downloads a file, the link text must indicate this action as well as the file type.
+
+### Use Alternative Text for Images
+
+Screen readers read alternative text aloud so that users can better understand an on-page image.
+
+- Provide alternative (alt) text that adequately summarizes the intent of each image. Don’t describe the image in detail.
+- Don’t present new information in images; always provide an equivalent text explanation with the image.
+- Don’t repeat images unless absolutely necessary.
+- Don’t use images of text, code samples, or terminal output. Use actual text.
+- Use SVG instead of PNG if available. SVGs stay sharp when you zoom in on the image.
+
+### Caption Videos, Recordings, and GIFs
+- Provide captions, transcripts, or descriptions of audio and video content. For example, you can use the autocaption feature in YouTube. - Make sure that captions can be translated into major languages.
+- Avoid flickering or flashing elements. They can cause anything from motion sickness to a seizure.
+
+### Use Simple Tables
+- Don’t use tables unless it’s the best method to present your information. Tables are challenging for screen readers. If you must use a table, use a simple table that doesn’t have cells that span columns or rows.
+- Avoid tables in the middle of a numbered procedure.
+
+### Format a Page for All Abilities
+
+Make sure that your document conveys all the information you intended if you view it in the following contexts:
+- Without sound
+- Using only sound
+- Without color
+- Using a keyboard
+- With screen magnification
+- Without punctuation
+- Don’t use color, size, location, or other visual cues as the primary way of communicating information.
+
+If you’re using color, icon, or outline thickness to convey state, then also provide a secondary cue, such as a change in the text label.
+
 
 # Style Guidelines
 
