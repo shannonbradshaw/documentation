@@ -9,8 +9,7 @@ Short paragraphs are easier to scan and understand than longer ones. Use the fol
 
 | Use | Avoid |
 | --- | --- |
-From the Job Scheduler window, you can perform the following actions:<br>
-- Run a generated script immediately.<br>- Schedule a generated script to run at a later time.<br>- Track the execution of submitted jobs.<br>- Manage jobs in the job queue. | From the Job Scheduler page, you can run a generated script immediately, schedule a generated script to run at a later time, track the execution of submitted jobs, and manage jobs in the job queue. |
+From the Job Scheduler window, you can perform the following actions:<br>- Run a generated script immediately.<br>- Schedule a generated script to run at a later time.<br>- Track the execution of submitted jobs.<br>- Manage jobs in the job queue. | From the Job Scheduler page, you can run a generated script immediately, schedule a generated script to run at a later time, track the execution of submitted jobs, and manage jobs in the job queue. |
 |Within the Cloud Storage App for Microsoft SharePoint, you can delete a single file or multiple files from a container:<br>
 To delete a single file, click the delete icon to the right of the file’s name.<br>
 To delete multiple files at one time, select the cloud icon to the left of each file’s name and then click Delete Selected. Rows that you select for deletion are highlighted with a dark gray background.<br>
