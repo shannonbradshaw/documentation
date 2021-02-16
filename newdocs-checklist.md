@@ -4,8 +4,6 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 ## Use Active Voice
 
-### Why Use Active Voice?
-
 *Active voice* makes the performer of the action (usually the reader or user) the subject of the sentence.
 
 *Passive voice* makes the recipient of the action (not the performer) the subject of the sentence.
@@ -25,6 +23,7 @@ Beginning users look for specific calls to action in step-by-step content. Activ
 | After you install the software, start the computer. | After the software has been installed, the computer can be started. |
 | Click OK to save the configuration. | The configuration is saved when the OK button is clicked. |
 | Create a server. | A server is created by you. |
+<br>
 
 ### When Do You Use Passive Voice?
 
