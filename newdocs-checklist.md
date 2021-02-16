@@ -78,6 +78,7 @@ A well-written long sentence may be hard to follow and understand.
   - Clarify the relationship between the clauses.
 
 | Use | Avoid |
+| --- | --- |
 | After you choose a cloud provider, Atlas fetches a list of the regions where the provider can host a cluster. Atlas displays the default cluster tier with its memory and storage parameters. | After you choose a cloud provider, Atlas fetches a list of the regions where the cloud provider can host a cluster, along with the cluster tier and the memory and storage parameters for that tier. |
 | Select whether to overwrite files with the same name or to restore files to their original folders. Click Next. | Click the check boxes to confirm whether you would like to Overwrite files with the same name or restore the files to their original folders and then click the Next button. |
 
@@ -91,6 +92,7 @@ Short paragraphs are easier to scan and understand than longer ones. Use the fol
 - The following examples show how you can break up a long paragraph. Use a list so the user can scan the text.
 
 | Use | Avoid |
+| --- | --- |
 From the Job Scheduler window, you can perform the following actions:<br>
 - Run a generated script immediately.<br>
 - Schedule a generated script to run at a later time.<br>
@@ -118,6 +120,7 @@ Pay special attention if a form of be is the main verb in the sentence. Forms of
 Look for a “hidden” verb in the element following the be‐verb.
 
 | Use | Avoid |
+| --- | --- |
 | This report analyzes the problem. | This report is an analysis of the problem. |
 <br/>
 
