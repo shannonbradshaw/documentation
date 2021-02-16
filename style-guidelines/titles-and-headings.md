@@ -3,7 +3,7 @@
 ### Semantics
 - Create succinct, meaningful, descriptive titles and headings, and place the most important words first.
 - Create titles that clearly describe what the page is about for a user who is unfamiliar with the product. E.g., use “Hyperparameter tuning” instead of “Katib.”
-- Create titles that don’t rely on body text or other titles for their meaning (that are, in other words, independent of context). Users should be able to tell from a title whether the information in the article is relevant to their needs. Avoid ambiguous one-word titles, such as “Overview.” - E.g., “Submit Kubernetes resources from a Jupyter notebook” instead of “Submit Kubernetes Resources.” This is important for SEO and for readability in search results. It also bulletproofs against introducing a confusing experience if a page is reorganized into a different section for some reason.
+- Create titles that don’t rely on body text or other titles for their meaning (that are, in other words, independent of context). Users should be able to tell from a title whether the information in the article is relevant to their needs. Avoid ambiguous one-word titles, such as “Overview.” E.g., “Submit Kubernetes resources from a Jupyter notebook” instead of “Submit Kubernetes Resources.” This is important for SEO and for readability in search results. It also bulletproofs against introducing a confusing experience if a page is reorganized into a different section for some reason.
 - Ensure that each title and heading is unique within a given content set.
 
 ### Capitalization
