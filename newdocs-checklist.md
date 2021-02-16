@@ -2,7 +2,7 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 # Writing Guidelines
 
-## Use Active Voice
+## Use Active Voice Almost Always
 
 *Active voice* makes the performer of the action (usually the reader or user) the subject of the sentence.
 
@@ -23,9 +23,8 @@ Beginning users look for specific calls to action in step-by-step content. Activ
 | After you install the software, start the computer. | After the software has been installed, the computer can be started. |
 | Click OK to save the configuration. | The configuration is saved when the OK button is clicked. |
 | Create a server. | A server is created by you. |
-<br>
 
-### When Do You Use Passive Voice?
+## When Do You Use Passive Voice?
 
 You can use passive voice when using active voice will create one of the following problems:
 - Sounds like you’re blaming the user. For example, you can use passive voice in an error message or troubleshooting content when the active subject is the user.
@@ -36,10 +35,12 @@ You can use passive voice when using active voice will create one of the followi
 | --- | --- | --- |
 | A flag was set incorrectly. | You set the flag incorrectly. | The active voice blames the user. |
 | Account owners can’t be assigned additional roles, and their access can’t be restricted. | Administrators can’t assign account owners additional roles, and they can’t restrict the access of account owners. | In this context, the object, account owners, is more important than the actor, administrators. |
+<br/>
 
 ## Use Present Tense
 
 Users read content to learn how to perform tasks or to gather information. These activities occur in the users’ present time. This makes the present tense appropriate in most cases. The present tense implies that users should take action now. Sentences that use the present tense are easier to read than sentences that use past or future tense.
+<br>
 
 ## Write to the User
 
@@ -54,6 +55,9 @@ Examples:
 
 ## Write Clear and Concise Sentences and Paragraphs
 
+<br/>
+
+
 ## Use Active Verbs
 
 Verbs carry the action in a sentence. Use active verbs rather than verbs like *be*, *have*, *make*, or *do* (and their variants). 
@@ -66,8 +70,10 @@ Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make th
 | If the node can’t access the Internet, the installation process fails. | If the node doesn’t have Internet access, the installation process fails. |
 | To create a server, specify a name, flavor, and image. | You create a server by specifying a name, flavor, and image. |
 | When you create a server, … | When creating a server, … |
-	
-### Avoid Verbs Built from Nouns
+<br>
+
+## Avoid Verbs Built from Nouns
+
 Many nouns are built from verbs, for example, description and explanation. Such nouns are called nominalizations. Use active verbs instead.
 
 | Use (active Verb) | Avoid (nominalization) |
@@ -76,7 +82,7 @@ Many nouns are built from verbs, for example, description and explanation. Such 
 | Install the product by completing the following tasks. | Perform the installation of the product by completing the following tasks. |
 | The program encrypts user IDs and passwords. | The program enables the encryption of user IDs and passwords. |
 
-### Use the Simplest Tense
+## Use the Simplest Tense
 
 | Use (simplest tense) | Avoid (more complex) |
 | --- | --- |
@@ -84,7 +90,6 @@ Many nouns are built from verbs, for example, description and explanation. Such 
 | To start, three ports are open: ssh, http, and https.	| To start, you are going to have three ports open: ssh, http, and https. |
 | If you use a Red Hat distribution, iptables works a little differently. | If you are using a Red Hat distribution, iptables work a little differently. |
 
-## Clarify Pronouns and Antecedents
 
 ## User Gender-Neutral Pronouns
 
