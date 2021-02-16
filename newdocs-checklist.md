@@ -70,7 +70,7 @@ Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make th
 | If the node can’t access the Internet, the installation process fails. | If the node doesn’t have Internet access, the installation process fails. |
 | To create a server, specify a name, flavor, and image. | You create a server by specifying a name, flavor, and image. |
 | When you create a server, … | When creating a server, … |
-<br>
+<br/>
 
 ## Avoid Verbs Built from Nouns
 
@@ -81,6 +81,7 @@ Many nouns are built from verbs, for example, description and explanation. Such 
 | The following table describes each of the products. |	The following table provides a description of each of these products. |
 | Install the product by completing the following tasks. | Perform the installation of the product by completing the following tasks. |
 | The program encrypts user IDs and passwords. | The program enables the encryption of user IDs and passwords. |
+<br/>
 
 ## Use the Simplest Tense
 
@@ -89,7 +90,7 @@ Many nouns are built from verbs, for example, description and explanation. Such 
 | Before you perform this task, complete the prerequisites. |	Before you perform this task, you should have completed the prerequisites. |
 | To start, three ports are open: ssh, http, and https.	| To start, you are going to have three ports open: ssh, http, and https. |
 | If you use a Red Hat distribution, iptables works a little differently. | If you are using a Red Hat distribution, iptables work a little differently. |
-
+<br/>
 
 ## User Gender-Neutral Pronouns
 
@@ -104,6 +105,7 @@ Following are some examples:
 - Tell the next caller they need to forward the status.
 - Every account manager should thank their customer.
 - Who left their laptop opened and unsecured?
+<br/>
 
 ## Use Positive Statements
 
