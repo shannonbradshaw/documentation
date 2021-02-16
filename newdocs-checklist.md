@@ -2,163 +2,29 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 # Writing Guidelines
 
-## Use Active Voice
+[Use Active Voice](writing-guidelines/use-active-voice.md)
 
-*Active voice* makes the performer of the action (usually the reader or user) the subject of the sentence.
+[When Do You Use Passive Voice?](writing-guidelines/when-do-you-use-passive-voice.md)
 
-*Passive voice* makes the recipient of the action (not the performer) the subject of the sentence.
+[Use Present Tense](writing-guidelines/use-present-tense.md)
 
-When compared to passive-voice sentences, active-voice sentences are:
-- more engaging
-- less complicated
-- less wordy
-- easier to understand
+[Write to the User](writing-guidelines/write-to-the-user.md)
 
-With active voice, you can distinguish the actions and responses of the user from those of the technology.
+[Restrict Sentence Length](writing-guidelines/restrict-sentence-length.md)
 
-Beginning users look for specific calls to action in step-by-step content. Active voice makes this clear. Consider if you write a step that reads “The service can be restarted.” As written, this sentence reads as a consideration or a possibility, not an instruction. If the user skips this step due to this confusion, the rest of the tutorial might fail. If you write “Restart the service”, you remove all doubt. This also clarifies that the user restarts the service.
+[Create Short Paragraphs](writing-guidelines/create-short-paragraphs.md)
 
-| Use (active) | Avoid (passive) |
-| --- | --- |
-| After you install the software, start the computer. | After the software has been installed, the computer can be started. |
-| Click OK to save the configuration. | The configuration is saved when the OK button is clicked. |
-| Create a server. | A server is created by you. |
+[Limit Using Be as the Main Verb](writing-guidelines/limit-using-be-as-the-main-verb.md)
 
-## When Do You Use Passive Voice?
+[Use Active Verbs](writing-guidelines/use-active-verbs.md)
 
-You can use passive voice when using active voice will create one of the following problems:
-- Sounds like you’re blaming the user. For example, you can use passive voice in an error message or troubleshooting content when the active subject is the user.
-- Makes the sentence wordy or awkward.
-- Would emphasize the performer when you don’t know the performer of action or you want to de-emphasize the performer in favor the object on which the action is performed.
+[Avoid Verbs Built from Nouns](writing-guidelines/avoid-verbs-built-from-nouns.md)
 
-| Acceptable (passive) | Avoid (active) | Why? |
-| --- | --- | --- |
-| A flag was set incorrectly. | You set the flag incorrectly. | The active voice blames the user. |
-| Account owners can’t be assigned additional roles, and their access can’t be restricted. | Administrators can’t assign account owners additional roles, and they can’t restrict the access of account owners. | In this context, the object, account owners, is more important than the actor, administrators. |
-<br/>
+[Use the Simplest Tense](writing-guidelines/use-the-simplest-tense.md)
 
-## Use Present Tense
+[Use Gender-Neutral Pronouns](writing-guidelines/use-gender-neutral-pronouns.md)
 
-Users read content to learn how to perform tasks or to gather information. These activities occur in the users’ present time. This makes the present tense appropriate in most cases. The present tense implies that users should take action now. Sentences that use the present tense are easier to read than sentences that use past or future tense.
-<br>
-
-## Write to the User
-
-Users are more engaged with content when it talks to them directly. Use second person to talk to users directly, addressing the user as you. Second person promotes a friendly tone. 
-
-Use second person with the imperative mood (in which the subject you is understood) and active voice to eliminate wordiness and confusion about who or what initiates an action, especially in procedural steps.
-
-Examples:
-- Use the following configuration if you want to enable authentication.
-- Enter your access keys.
-- Install and configure the AWS Command Line Inerface. (imperative)
-
-## Use Simple, Consistent Sentence Structure
-
-- As often as possible, use the sentence structure subject-verb-object.
-- Use simple declarative sentences for descriptions.
-- Use simple imperative sentences for instructions.
-- Sentences that describe a condition should always begin with the conditional clause, so that the user can skip the section if the condition does not apply to them.
-- Don’t make users backtrack to understand a sentence. If they can’t understand the beginning of the sentence without reading the end, rewrite the sentence.
-<br/>
-
-| Use | Avoid |
-| --- | --- |
-| The database truncates the value only when it’s stored as an integer. | Only when stored in an integer variable is the value truncated. |
-| To bake a cake, follow these steps. | Take a look at the following procedure below to bake a simple cake. |
-| If you must monitor clients from the host, you can configure your settings in the directory. | You can configure your settings in the directory if you must monitor clients from the host. |
-| Many users struggle to parse dense content. | Gathering the data necessary to parse dense content effectively is a task struggled with by many users. |
-
-## Restrict Sentence Length
-
-A well-written long sentence may be hard to follow and understand.
-- Try to limit sentences to no more than 20-25 words. Limit to less than 20 words if possible.
-- If you must write a longer sentence: 
-  - Use more than one clause. 
-  - Clarify the relationship between the clauses.
-
-| Use | Avoid |
-| --- | --- |
-| After you choose a cloud provider, Atlas fetches a list of the regions where the provider can host a cluster. Atlas displays the default cluster tier with its memory and storage parameters. | After you choose a cloud provider, Atlas fetches a list of the regions where the cloud provider can host a cluster, along with the cluster tier and the memory and storage parameters for that tier. |
-| Select whether to overwrite files with the same name or to restore files to their original folders. Click Next. | Click the check boxes to confirm whether you would like to Overwrite files with the same name or restore the files to their original folders and then click the Next button. |
-
-## Create Short Paragraphs
-Short paragraphs are easier to scan and understand than longer ones. Use the following guidelines for paragraphs:
-- Cover only one idea in each paragraph.
-- Limit paragraphs to four to five sentences.
-- Avoid having one-sentence paragraphs.
-- Use connective or transitional words to ensure flow within and between paragraphs.
-- When listing three or more items, use a bullet list instead of embedding the items in a paragraph.
-- The following examples show how you can break up a long paragraph. Use a list so the user can scan the text.
-
-| Use | Avoid |
-| --- | --- |
-From the Job Scheduler window, you can perform the following actions:<br>
-- Run a generated script immediately.<br>
-- Schedule a generated script to run at a later time.<br>
-- Track the execution of submitted jobs.<br>
-- Manage jobs in the job queue. |
-From the Job Scheduler page, you can run a generated script immediately, schedule a generated script to run at a later time, track the execution of submitted jobs, and manage jobs in the job queue. |
-|Within the Cloud Storage App for Microsoft SharePoint, you can delete a single file or multiple files from a container:<br>
-- To delete a single file, click the delete icon to the right of the file’s name.<br>
-- To delete multiple files at one time, select the cloud icon to the left of each file’s name and then click Delete Selected. Rows that you select for deletion are highlighted with a dark gray background.<br>
-When you delete a file, it’s permanently removed from the Cloud Files container. | Within the Cloud Storage App for Microsoft SharePoint, you can delete a single file or multiple files from a container. You can delete a single file by clicking the delete icon to the right of the file’s name. You can delete multiple files at one time by selecting the cloud icon to the left of each file’s name and then clicking Delete Selected. Rows that you select for deletion are highlighted with a dark gray background. When you delete a file, it’s permanently removed from the Cloud Files container. | 
-
-
-## Limit Using Be as the Main Verb
-
-Pay special attention if a form of be is the main verb in the sentence. Forms of be include:
-- be
-- is
-- am
-- are
-- was
-- were
-- being
-- been
-
-Look for a “hidden” verb in the element following the be‐verb.
-
-| Use | Avoid |
-| --- | --- |
-| This report analyzes the problem. | This report is an analysis of the problem. |
-<br/>
-
-## Use Active Verbs
-
-Verbs carry the action in a sentence. Use active verbs rather than verbs like *be*, *have*, *make*, or *do* (and their variants). 
-
-Avoid gerunds (-ing words) and nominalizations (making nouns from verbs) make the nouns carry the action and weaken the meaning. Replace weak verbs and gerunds with strong, action-oriented verbs to restore focus to verbs from nouns.
-
-| Use (active verb) |	Avoid (weaker) |
-| --- | --- |
-| Role-Based Access Control (RBAC) restricts service access to authorized users. | Role-Based Access Control (RBAC) is a method of restricting service access to authorized users. |
-| If the node can’t access the Internet, the installation process fails. | If the node doesn’t have Internet access, the installation process fails. |
-| To create a server, specify a name, flavor, and image. | You create a server by specifying a name, flavor, and image. |
-| When you create a server, … | When creating a server, … |
-<br/>
-
-## Avoid Verbs Built from Nouns
-
-Many nouns are built from verbs, for example, description and explanation. Such nouns are called nominalizations. Use active verbs instead.
-
-| Use (active Verb) | Avoid (nominalization) |
-| --- | --- |
-| The following table describes each of the products. |	The following table provides a description of each of these products. |
-| Install the product by completing the following tasks. | Perform the installation of the product by completing the following tasks. |
-| The program encrypts user IDs and passwords. | The program enables the encryption of user IDs and passwords. |
-<br/>
-
-## Use the Simplest Tense
-
-| Use (simplest tense) | Avoid (more complex) |
-| --- | --- |
-| Before you perform this task, complete the prerequisites. |	Before you perform this task, you should have completed the prerequisites. |
-| To start, three ports are open: ssh, http, and https.	| To start, you are going to have three ports open: ssh, http, and https. |
-| If you use a Red Hat distribution, iptables works a little differently. | If you are using a Red Hat distribution, iptables work a little differently. |
-<br/>
-
-## User Gender-Neutral Pronouns
+## Use Gender-Neutral Pronouns
 
 Use gender-neutral pronouns unless you are referring to a specific individual. 
 
