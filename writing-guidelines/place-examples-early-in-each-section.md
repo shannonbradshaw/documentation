@@ -1,4 +1,4 @@
-## Place Examples Early in each Section
+## Assume Users will Try Examples First and Read Only if They Fail
 
 Users prefer to read as little of your documentation as they can. Help them achieve this goal! Create illustrative examples before you write anything. Place examples as near the beginning of each section as you can, but definitely above the fold for common screen sizes. Assume users will skip over any introductory text you have provided in a section and go straight to trying to understand examples.
 
