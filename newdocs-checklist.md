@@ -32,13 +32,13 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 [Write for Accessibility](writing-guidelines/write-for-accessibility.md)
 
-[Place Examples Early in each Section] (in progress)
+[Place Examples Early in each Section]() (in progress)
 
-[Assume Readers will Try Examples First and Read Only if They Fail] (in progress)
+[Assume Readers will Try Examples First and Read Only if They Fail]() (in progress)
 
-[Organize by Overview, Getting Started, Guides/Tutorials, Reference, and Troubleshooting] (in progress)
+[Organize by Overview, Getting Started, Guides/Tutorials, Reference, and Troubleshooting]() (in progress)
 
-[Don't Overwhelm the Reader (in progress)]
+[Don't Overwhelm the Reader (in progress)]()
 
 
 # Style Guidelines
