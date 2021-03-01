@@ -45,15 +45,15 @@ Adapted from the [MongoDB Documentation Style Guide](https://docs.mongodb.com/me
 
 [Titles and Headings](style-guidelines/titles-and-headings.md)
 
-Code Examples
+[Code Examples]()
 
-Lists
+[Lists]()
 
-Step-by-Step Tasks
+[Step-by-Step Tasks]()
 
-Voice and Tone
+[Voice and Tone]()
 
-Screenshots
+[Screenshots]()
 
 # Iterative Improvement
 
